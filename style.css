@@ -4,7 +4,7 @@
     --color-primary-variant: #ffc7bb;
     --color-black: #0a0a0c;
     --color-dark: #62656a;
-    --color-white: #fff;
+    --color-white: #f2f2f2;
     --color-light: #rgba(255, 255, 255, 0.8);
 
     --width: 84%;
@@ -29,7 +29,7 @@ html{
 body{
     font-family: 'Montserrat', sans-serif;
     color: var(--color-dark);
-    background-color: var(--color-white);
+    background-color: var(--color-white)
 }
 
 .main-wrapper{
@@ -89,7 +89,6 @@ p{
     border: 1px solid transparent;
     cursor: pointer;
     transition: all 300ms ease;
-    float: right;
 }
 
 
@@ -106,6 +105,11 @@ p{
     margin-top: 1rem; 
 }
 
+.btn-right{
+    float: right;
+    margin-right: 1em;
+}
+
 section {
     max-width: 100vw;
     padding: 12rem 0 0;
@@ -114,7 +118,7 @@ section {
 /* HERO */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/Shepherds-Pie.webp");
+    background-image: url("./images/image-hero-removebg-preview\ \(1\).png");
   
     /* Set a specific height */
     height: 50%;
@@ -125,13 +129,14 @@ section {
     position: relative;
     display: inline-block;
     margin-left: 8em;
+    margin-top: 1.5em;
     padding: 20em;
   }
 
   .hero-text{
     float: right;
     margin-right: 8em;
-    margin-top: 12.5em;
+    margin-top: 14em;
 
   }
 /* =============NAVBAR=========== */
@@ -176,6 +181,7 @@ nav a:hover {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
 }
 
 .card-img{
