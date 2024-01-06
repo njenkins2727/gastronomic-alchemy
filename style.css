@@ -102,7 +102,6 @@ p{
 .btn-primary{
     background-color: var(--color-primary);
     color: var(--color-white);
-    margin-top: 1rem; 
 }
 
 .btn-right{
@@ -152,7 +151,8 @@ section {
 }
 
 .navbar-brand{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 32px;
 }
 nav ul{
@@ -163,13 +163,19 @@ nav ul{
 
 nav a:hover {
     color: var(--color-primary-variant);
+    text-decoration: none;
 }
 
+.logo-navbar {
+   width: 100px;
+   height: auto;
+}
 
 
 .active{
     text-decoration: none;
     border-bottom: 6px solid var(--color-primary-variant);
+    color: var(--color-primary-variant);
 }
 
 
@@ -230,3 +236,17 @@ list-style-type: circle;
     color: orange;
   }
 
+/* CATEGORIES PAGES */
+
+/* EASY DINNER */
+
+.page-header {
+   text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* DINNER PARTY */
+.carnitas-header{
+    
+}
