@@ -238,15 +238,25 @@ list-style-type: circle;
 
 /* CATEGORIES PAGES */
 
-/* EASY DINNER */
+    /* EASY DINNER */
+    .page-header {
+     text-align: center;
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+    }
 
-.page-header {
-   text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+/* FOOTER */
+
+.footer{
+    background-color: var(--color-primary);
+    height: 7vh;
 }
 
-/* DINNER PARTY */
-.carnitas-header{
-    
+.footer-nav {
+    text-align: center;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-evenly;
 }
