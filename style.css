@@ -249,14 +249,28 @@ list-style-type: circle;
 
 .footer{
     background-color: var(--color-primary);
-    height: 7vh;
+    height: 15vh;
+}
+
+.icon{
+    width: 30px;
+    height: auto;
+    margin-left: 2em;
 }
 
 .footer-nav {
     text-align: center;
+    line-height: 2em;
+}
+
+.icon-list{
+    padding-top: 0.8em;
+}
+
+.copyright-text{
+    color: var(--color-black);
 }
 
 .footer-wrapper{
-    display: flex;
-    justify-content: space-evenly;
+    padding-left: 10em;
 }
