@@ -181,7 +181,7 @@ nav a:hover {
 
 
 
-/* =============CARDS============ */
+/* ============= RECIPE  CARDS============ */
 .card-img-top{
     width: 82.5%;
     height: auto;
@@ -273,4 +273,36 @@ list-style-type: circle;
 
 .footer-wrapper{
     padding-left: 10em;
+}
+
+/* SIGN UP / LOGIN */
+
+#login-form button{
+    margin-top: 1rem;
+    width: 11.18em;
+    background-color: var(--color-white);
+}
+
+.login-body{
+    background-color: var(--color-primary);
+}
+
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto; 
+    padding-top: 3rem;
+    background-color: var(--color-primary);
+    width: 20rem;
+    height: 30rem;
+    border-radius: 3%;
+}
+
+.card-wrapper{
+}
+
+.register-link{
+    margin-top: 1em;
 }
