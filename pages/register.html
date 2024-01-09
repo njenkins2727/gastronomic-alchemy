@@ -19,22 +19,24 @@
   </head>
 <body id="login-body">
 
-        <a class="navbar-brand" href="/home.html"> <img src="/images/logo.png" alt="logo" class="logo-navbar">Gastronomic Alchemy</a>
+    <a class="navbar-brand" href="/home.html"> <img src="/images/logo.png" alt="logo" class="logo-navbar">Gastronomic Alchemy</a>
 
     <div class="login-wrapper">
         
-        <h1>Login</h1>
+        <h1>Register</h1>
         
         <form id="login-form">
-            
+            <p>Full name</p>
+            <input type="text" name="name" id="name-reg">
             <p>Email</p>
-            <input type="text" name="email" id="email-login">
+            <!-- change id to class bc crosses over to login html? -->
+            <input type="email" name="email" id="email-reg"> 
             <p>Password</p>
-            <input type="password" name="password" id="password-login">
+            <input type="password" name="password" id="password-reg">
             <br>
-            <button class="">LOGIN</button>
-
-            <p class="register-link"> Need an account? <a href="./register.html">Register</a></p>
+            <button id="sign-up-reg">Sign up</button>
+            <div class="message">test </div>
+            <p class="register-link"> have an account? <a href="./login.html">Login</a></p>
             
         </form>
         
