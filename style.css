@@ -116,14 +116,13 @@ section {
 
 /* HERO */
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: url("./images/image-hero-removebg-preview\ \(1\).png");
   
     /* Set a specific height */
-    height: 50%;
-  
-    /* Position and center the image to scale nicely on all screens */
-    background-repeat: no-repeat;
+   max-width: 100%;
+   height: auto;
+
+   background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     display: inline-block;
@@ -136,8 +135,8 @@ section {
     float: right;
     margin-right: 8em;
     margin-top: 14em;
-
   }
+
 /* =============NAVBAR=========== */
 
 .navbar{
@@ -304,23 +303,87 @@ list-style-type: circle;
 .register-link{
     margin-top: 1em;
 }
+ 
+@media (max-width: 1374px) {
+    .hero-text{
+        margin-right: 3rem;
+        padding-right: 4rem;
+    }
+    .hero-image{
+        margin-left: 3rem;
+    }
+}
 
-.message {
-    visibility: hidden;
-    margin-top: 20px;
-    font-weight: 700;
-    height: 1.2em;
-    font-size: 1.2em;
-  }
-  
-.message.success,
-.message.error {
-    visibility: visible;
-  }
-  
-.message.success {
-    color: #0a0a0c;
+/* xl */
+@media (max-width: 1280px) {
+    .hero-text h1{
+        font-size: 3.5rem;
+    }
 }
-.message.error {
-    color: #0a0a0c;
+
+@media (max-width: 1203px) {
+    .hero-image{
+        margin-left: 2rem;
+
+    }
 }
+
+@media (max-width: 1187px) {
+    .hero-image{
+        
+    }
+    .hero-text{
+       margin-right: 0;
+        margin-bottom: 25vw;
+    }
+}
+
+@media (max-width: 1139px) {
+    .hero-image{
+       width: 8rem;
+       height: 6rem;
+       margin-left: 18vw;
+      margin-right: 21vw;
+      
+      
+    }
+    .hero-text{
+       margin: 0;
+       padding: 0;
+       float: none;
+       text-align: center;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .main-wrapper{
+        width: 84%;
+        height: auto;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 897px) {
+    .main-wrapper{
+        justify-content: center;
+    }
+    .navbar-item{
+        gap: 3em;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {
+}
+
